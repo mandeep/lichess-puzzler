@@ -17,7 +17,7 @@ TagKind = Literal[
     "castling",
     "clearance",
     "coercion",
-    "collinear",
+    "collinearMove",
     "crushing",
     "defensiveMove",
     "discoveredAttack",

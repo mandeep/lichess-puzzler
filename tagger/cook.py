@@ -104,7 +104,7 @@ def cook(puzzle: Puzzle) -> List[TagKind]:
         tags.append("skewer")
 
     if collinear(puzzle):
-        tags.append("collinear")
+        tags.append("collinearMove")
 
     if self_interference(puzzle) or interference(puzzle):
         tags.append("interference")
